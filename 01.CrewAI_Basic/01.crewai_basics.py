@@ -5,7 +5,7 @@ user_question = input('편하게 질문해주세요 :)')
 
 llm = ChatOllama(
 	model ='llama3.1',
-	base_url='http://127.0.0.1:11434' # 컨트롤 누르고 링크 눌러보면 Ollama is running이라고 알려줌
+	base_url='http://127.0.0.1:11434' # 올라마 실행, 컨트롤 누르고 링크 눌러보면 Ollama is running이라고 알려줌
 )
 
 recommand_book_agent = Agent(
